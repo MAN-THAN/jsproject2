@@ -1,0 +1,260 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    border: 2px solid #F298B1;
+    border-radius: 8px;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 6px 10px 10px;
+    margin: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+    
+
+
+    
+   
+    
+    
+    
+
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 45px
+    
+}
+.text2{
+    
+    margin-top: -47px;
+    margin-left: 87.5%;
+    font-family: sans-serif;
+    color: #6F6F6F;
+}
+.icon{
+    color: #F43B3B;
+    margin-left: 84%;
+    margin-top: -28px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.pan{
+    font-weight: bolder;
+    font-size: xxx-large;
+    color: #F54444;
+}
+.span{
+    font-weight: lighter;
+    font-size: xxx-large;
+    color: #929292;
+    letter-spacing: 5px;
+}
+#line3{
+    width: 150px;
+    height: 2px;
+    background: #6F6F6F;
+    margin-top: 10px;
+    margin-left: 27px;
+    
+}
+#tp{
+    margin-top: 20px;
+    font-size: large;
+    margin-left: 10px;
+    color: #F54444;
+}
+#pt{
+    margin-top: 15px;
+    margin-left: -68px;
+    color: black;
+    font-size: small;
+}
+#additem{
+    border: 2px solid #F298B1;
+    height: 120px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    background-color: white;
+    text-align: center;
+    color: #F54444 ;
+    padding-top: 20px;
+
+
+}
+#text1{
+    font-family: sans-serif;
+    color: #F54444;
+    font-size: large;
+    margin-top: 20px;
+}
+#line1{
+    position: relative;
+    top: -20px;
+
+}
+.icon1{
+    position: relative;
+    top: 53.5%;
+    left: 80%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-image: url(./plus.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+   
+}
+.icon1_same{
+    position: relative;
+    top: 60%;
+    left: 80%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(./plus.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+   
+}
+.icon2{
+    position: relative;
+    top: 45%;
+    left: 60%;
+    width: 25px;
+    height: 25px;
+    color: green;
+    cursor: pointer;
+    background-image: url(./trash-can.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+   
+}
+.icon2_same{
+    position: relative;
+    top: 52.55%;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    color: green;
+    cursor: pointer;
+    background-image: url(./trash-bin.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+   
+}
+.additem1{
+    border: 2px solid #F298B1;
+    height: 120px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    background-color: white;
+    text-align: center;
+    color: #F54444 ;
+    padding-top: 20px;
+
+
+}
+.but1{
+    color: white;
+    background-color: #F54444;
+    border-radius: 50px;
+    width: 70px;
+    border-color:#F54444 ;
+    cursor: pointer;
+    height: 25px;
+    margin-top: 15px;
+}
+.input_class{
+    border-radius: 5px;
+    border-color: #F298B1;
+    display: block;
+    margin-left: 40px;
+    margin-top: -8px;
+    
+}
+.headingg{
+    margin-top: 10px;
+}
+.buttt1{
+    color: white;
+    background-color: #F54444;
+    border-radius: 50px;
+    width: 120px;
+    border-color:#F54444 ;
+    cursor: pointer;
+    height: 15px;
+    margin-left:40px;
+    font-size: x-small;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.redtext{
+    
+}
+.black{
+    height:400vh;
+    width:100vw ;
+    background-color: black;
+    position: relative;
+    top: -500px;
+  
+}
+.box_same{
+    border: 2px solid #F298B1;
+    border-radius: 8px;
+    height: 400px;
+    width: 270px;
+    position: relative;
+    top: 1%;
+    left:40%;
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 6px 10px 10px;
+    margin: 0px;
+    
+    cursor: pointer;
+
+}
+.backk{
+    color: white;
+    position: relative;
+    left: 47%;
+    top: 0%;
+}
+.back_icon{
+    position: relative;
+    top: 2.8%;
+    left: 41%;
+    width: 50px;
+    height: 50px;
+    color: green;
+    cursor: pointer;
+    background-image: url(./undo.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+}
